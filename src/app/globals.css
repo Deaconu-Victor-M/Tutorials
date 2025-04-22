@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import "tailwindcss";
+
+:root {
+  --background: #101111;
+  --foreground: #171717;
+  --orange: #FF6002;
+  --font-space-mono: 'Space Mono', monospace;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: #FF6002;
+
+  --color-orange: #FF6002;
+  --color-green: #18D37A;
+  --color-blue: #5B6DB4;
+  --color-red: #F43E3E;
+  
+  --font-sans: var(--font-space-mono);
+  --font-mono: var(--font-space-mono);
+  --shadow-button: 0px 102px 28px 0px rgba(255, 255, 255, 0.00), 
+                  0px 65px 26px 0px rgba(255, 255, 255, 0.01), 
+                  0px 37px 22px 0px rgba(255, 255, 255, 0.03), 
+                  0px 16px 16px 0px rgba(255, 255, 255, 0.04), 
+                  0px 4px 9px 0px rgba(255, 255, 255, 0.05);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #101111;
+    --foreground: #ffffff;
+    --accent: #FF6002;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-space-mono);
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: var(--font-space-mono);
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
