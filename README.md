@@ -1,37 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# UI Animation Tutorials
+
+A Next.js project showcasing modern UI animations and interactive components using Framer Motion.
+
+![Next.js](https://img.shields.io/badge/Next.js-15.3.1-black)
+![React](https://img.shields.io/badge/React-19.0.0-blue)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-12.7.4-purple)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4.0.0-teal)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0.0-blue)
+
+## Overview
+
+This project contains a collection of UI animation tutorials and examples built with Next.js, React, and Framer Motion. It demonstrates modern animation techniques and interactive UI components that you can use in your own projects.
+
+Currently featured animations:
+- Animated text buttons with hover effects
+
+## Prerequisites
+
+- Node.js 18.x or later
+- npm or yarn package manager
 
 ## Getting Started
 
-First, run the development server:
+Follow these steps to set up and run the project locally:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Deaconu-Victor-M/Tutorials.git
+   cd tutorials
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. **Run the development server**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+4. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000) to see the project in action.
+
+## Project Structure
+
+```
+src/
+├── app/
+│   ├── components/
+│   │   └── buttons/
+│   │       └── TextButton.tsx   # Animated text button component
+│   ├── page.tsx                 # Main landing page with examples
+│   ├── layout.tsx               # Root layout component
+│   └── globals.css              # Global styles
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Modern Stack**: Built with Next.js 15.3.1, React 19, and TypeScript
+- **Animations**: Powered by Framer Motion for smooth, high-performance animations
+- **Responsive Design**: Fully responsive UI that works on all devices
+- **Styling**: Uses TailwindCSS for utility-first styling
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Technologies Used
 
-## Learn More
+- [Next.js](https://nextjs.org/) - React framework
+- [React](https://react.dev/) - UI library
+- [Framer Motion](https://www.framer.com/motion/) - Animation library
+- [TailwindCSS](https://tailwindcss.com/) - Utility-first CSS framework
+- [TypeScript](https://www.typescriptlang.org/) - Type-safe JavaScript
 
-To learn more about Next.js, take a look at the following resources:
+## Scripts
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- `npm run dev` - Start development server with Turbopack
+- `npm run build` - Build for production
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## License
 
-## Deploy on Vercel
+[MIT](LICENSE)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# Tutorials
+Contributions are welcome! Please feel free to submit a Pull Request.
